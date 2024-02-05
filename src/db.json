@@ -1,0 +1,224 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Soal Ke-1",
+      "descriptoin": "Soal dasar mengenai pengetahuan dasar programming.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "Apakah yang dimaksud dengan Variabel dan Tipe Data didalam Javascript dan TypeScript? Jelaskan jenis-jenis nya!"
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Apakah perbedaan antara percabangan if-else dengan switch-case? Berikan contohnya dalam bentuk code sederhana! (TypeScript)"
+        },
+        {
+          "id_soal": 3,
+          "soalnya": "Apakah yang dimaksud dengan function dan method dalam Javascript? Jelaskan perbedaannya! dan berikan contohnya dalam bentuk code sederhana"
+        },
+        {
+          "id_soal": 4,
+          "soalnya": "Apa yang kamu ketahui tentang synchronous dan asynchronous programming di TypeScript?"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Soal Ke-2",
+      "descriptoin": "Disini kalian dituntut untuk menyelesaikan beberapa soal logic ringan.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "Buat program yang menghitung rata-rata UN beserta gradenya, dengan mengisi 4 nilai yakni Bahasa indonesia,Bahasa Inggris Matematika dan IPA, yang di dalam program tersebut memiliki validasi yaitu semua nilai tersebut harus diisi dan juga untuk grade memiliki kondisi dengan ketentuan sebagai berikut: 90 - 100 = A, 80 - 89 = B, 70 - 79 = C,  60 - 69 = D, 0 - 59 = E"
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "1. klik gambar ini https://res.cloudinary.com/devloops7/image/upload/v1612761431/chunin/screenshot-docs.google.com-2021.02.08-12_14_19_byiobb.png lalu Ubahlah data  tersebut menggunakan spread operator menjadi: \n name: nama anda\n email: email anda\n hobby: hobi anda\n. 2. Ambilah data “street dan city” tersebut menggunakan destructuring"
+        },
+        {
+          "id_soal": 3,
+          "soalnya": "Buatlah program yang memiliki satu variabel dengan nama “printSegitiga” yg berisi tipe data number yang menghasilkan output segitiga terbalik yang berisi angka"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Soal Ke-3",
+      "descriptoin": "Disini kalian dituntut untuk menyelesaikan beberapa soal logic yang berhubungan dengan callback function.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "Buatlah program searching nama yang dapat dibatasi jumlah outputnya yang menerapkan  callback function dengan data sebagai berikut: const name = [‘Abigail’, ‘Alexandra’, ‘Alison’, ‘Amanda’, ‘Angela’, ’Bella’, ‘Carol’, ‘Caroline’, ‘Carolyn’, ‘Deirdre’, ‘Diana’, ‘Elizabeth’, ‘Ella’, ‘Faith’, ‘Olivia’, ‘Penelope’]. Contoh: searchName(“an”, 3, callback)"
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Buatlah fungsi yang memiliki parameter nilaiAwal (number) dan nilaiAkhir (number), serta dataArray (array). Fungsi tersebut memiliki validasi nilaiAwal < nilaiAkhir dan jumlah data dalam dataArray harus lebih dari 5. Fungsi tersebut akan mencari data didalam dataArray yang memiliki nilai diantara nilaiAwal dan nilaiAkhir, mengurutkan hasil pencarian dan menampilkannya ke layar/console."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Soal Ke-4",
+      "descriptoin": "Disini kalian dituntut untuk menyelesaikan beberapa soal logic yang berhubungan dengan Async dan Promise.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "Buatlah 3 program bebas dengan menggunakan promise"
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Buatlah program menggunakan method fetch untuk menampilkan semua title (hanya title nya saja) dari REST API dibawah ini https://dhiyo-api-article.herokuapp.com/articles Gunakan debugger console bawaan browser Chrome untuk melihat hasilnya "
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Soal Ke-5",
+      "descriptoin": "Disini kalian dituntut untuk menyelesaikan beberapa soal logic yang tingkat kesulitannya lebih rumit.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "Diberikan sebuah variabel yang berisikan bilangan integer dengan ketentuan angka 0 (nol) dalam variabel tersebut merupakan pemisah antara satu bilangan dengan bilangan lainnya. Bilangan-bilangan tersebut akan dipisah dan diurutkan berdasarkan angka di bilangan-bilangan itu sendiri. Setelah itu, bilangan hasil pengurutan akan digabung kembali dengan tanpa pemisah dengan output berupa bilangan integer. Buatlah method/function yang menerima parameter hanya deret angka dan menghasilkan output seperti keterangan di atas. contoh (56431046145403146) menjadi (134561444561346) "
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Buatlah sebuah function yang dapat mengembalikan string baru yang telah diurutkan dari a - z akan tetapi tidak diperbolehkan ada huruf yang sama. Contoh : (pluginsangatkerensekali) menjadi (aegiklnprsu) "
+        },
+        {
+          "id_soal": 3,
+          "soalnya": "buatlah fungsi yang menampilkan angka, berdasarkan urutan angka yang sudah di tentukan. Yang menerima 3 parameter: n = urutan angka yang ingin dicari, a = angka pertama, b = selisih tiap angka"
+        },
+        {
+          "id_soal": 4,
+          "soalnya": "Diberikan sebuah kalimat, ubah urutan kata-kata di dalam kalimat menjadi terbalik. Misalnya kalimat “Saya cinta  PLUGIN”, output “PLUGIN cinta Saya” tanpa menggunakan built-in function / method bawaan dari javascript"
+        },
+        {
+          "id_soal": 5,
+          "soalnya": "Anton sedang bersiap untuk mengikuti tes IQ. Tes yang paling sering keluar adalah mencari angka mana yang berbeda dari yang lain. Anton mengamati bahwa pasti ada satu angka yang berbeda dari yang lain dalam hal pemerataan.  Buatlah sebuah program yang dapat membantu Anton untuk mengetahui di posisi manakah angka yang berbeda. Catatan Posisi angka dimulai dari satu (1) bukan nol (0)"
+        },
+        {
+          "id_soal": 6,
+          "soalnya": "Jelaskan apa yang kalian tahu mengenai Database, berikan contoh 5 query yang kalian tau. Jelaskan apa yang di maksud dengan Framwork, lalu apa perbedannya Framework dengan Library, dan berikan 7 contoh Framework Javascript yang kalian tahu. Jelaskan perbedaan antara FrontEnd dan Backend menurut pendapat kalian."
+        },
+        {
+          "id_soal": 7,
+          "soalnya": "Buat dan jelaskanlah 10 method bawaan JavaScript (Built-in Functions) beserta contoh penggunaannya"
+        }
+      ]
+    }
+  ],
+
+  "data2": [
+    {
+      "id": 1,
+      "name": "Soal Projek Week ke 1",
+      "descriptoin": "Kali ini kalian dituntut untuk menyelesaikan soal dalam bentuk projek, dimana kalian harus berfokus pada bagian BackEnd yang nantinya projek ini akan kalian pakai pada minggu minggu selanjutnya. Dianjurkan menggunakan stack seperti Express, MySQL, akan tetapi kalian boleh menggunakan stack lain untuk explore lebih. berikut ketentuan soal pada bagian Backend Beginner.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "Buatlah scheme DB dengan ketentuan 2 table yaitu table Buku dan table kategori. dimana 1 buku mempunyai 1 kategori."
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Buatlah 1 fitur CRUD untuk melakukan pengolahan data pada projek ini, yang berarti bisa melakukan CRUD buku dan CRUD kategori. Kalian bisa menggunakan template engine seperti 'HandleBars', 'Pug', dll. Kecuali 'EJS'. Buat dengan ketentuan rapih, serta responsive."
+        },
+        {
+          "id_soal": 3,
+          "soalnya": "Buatlahlah juga RESTFullAPI dari projek diatas. kalian bisa cari apa perbedaan RESTApi dengan RESTFullAPI."
+        },
+        {
+          "id_soal": 4,
+          "soalnya": "Buatlah dokumentasi API dengan Postman, Insomnia atau Docgen."
+        },
+        {
+          "id_soal": 5,
+          "soalnya": "Deploy Rest Full API kalian ke Heroku serta push projek kalian ke github dan lengkapi Readme.md nya dengan ketentuan ada deskripsi, ada design DB nya ada tech stack yang kalian gunakan, ada route API serta sedikit penjelasannya. cantumkan link dokumentasi API dan link deploy heroku lalu cara menjalankan projek tersebut."
+        },
+        {
+          "id_soal": 6,
+          "soalnya": "Tips n Trick : kalian bisa gunakan remotemysql.com untuk keperluan upload DB."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Soal Projek Week ke 2",
+      "descriptoin": "Pada minggu ini kalian diminta untuk menganalisis sebuah produk dan slicing mockup yang sudah ada ke dalam file HTML & CSS.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "https://www.figma.com/file/K6zP66LxzODFmkhxqBfry7/Untitled?node-id=0%3A1."
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Buatlah semua sechema DB dengan MySQL untuk kebutuhan supply data pada FrontEnd nantinya agar bisa di consume."
+        },
+        {
+          "id_soal": 3,
+          "soalnya": "Slicing UI yang sudah ada kedalam bentuk HTML & CSS dengan ketentuan responsive, kalian bisa gunakan framework CSS untuk mambantu serta mempercepat dalam pembuatan produk. kalian bisa gunakan Tailwindcss, Bootstrap, ChakraUI, dll"
+        },
+        {
+          "id_soal": 4,
+          "soalnya": "Deploy ke netlify jika sudah selesai"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Soal Projek Week ke 3",
+      "descriptoin": "Pada minggu ini kalian diminta untuk membuat BackEnd dari skema database yang sudah kalian buat dan analisa lagi pada mockup di minggu lalu. Buatlah semua kebutuhan BackEnd yang di perlukan untuk FrontEnd kedepannya.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "Gunakan ExpressJs, Prisma ORM, PostgreSQL"
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Buatlah projek dengan ketentuan modular di setiap fitur"
+        },
+        {
+          "id_soal": 3,
+          "soalnya": "Perhatikan status response dan handle error"
+        },
+        {
+          "id_soal": 4,
+          "soalnya": "Buatlah dokumentasi API menggunakan Postman, serta push ke github dan jgn lupa deskripsikan apa yang kalian buat di Readme.md"
+        },
+        {
+          "id_soal": 5,
+          "soalnya": "Deploy ke heroku jika sudah selesai. Ini bakalan jadi nilai plus plus :v"
+        },
+        {
+          "id_soal": 6,
+          "soalnya": "Untuk modularisasi bisa cek github https://github.com/dhiyo7/BooksRentals-Backend"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Soal Projek Week ke 4",
+      "descriptoin": "Buatlah semua backend yang nantinya akan kalian pakai untuk kebutuhan FrontEnd kalian. tugas ini 2 minggu jadi maksimalkan.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "Ketentuan soal sama dengan minggu lalu."
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Perhatikan segala bentuk data berdasarkan mockup yang ada"
+        },
+        {
+          "id_soal": 3,
+          "soalnya": "Kurangin kesalahan yang sama dengan minggu lalu. Perhatikan se detail mungkin."
+        }
+      ]
+    }
+  ],
+  "data3" : [
+    {
+      "id" : 1,
+      "content": ""
+    }
+  ]
+}
