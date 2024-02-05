@@ -22,7 +22,7 @@ export default function Home() {
           <div className="flex flex-wrap mt-10 justify-center">
             <div className="m-6">
               <Link
-                to="/weeksatu"
+                to="/weeksatunew"
                 className="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-blue-600 hover:border-blue-600 hover:bg-blue-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
               >
                 <span className="font-mono mx-auto">Logic</span>

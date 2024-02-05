@@ -11,7 +11,7 @@ const App = () => {
   return (
     <Routes>
       <Route exact path='/' element={<Home />} />
-      <Route path="/weeksatu" element={<DaftarSoal/>} />
+      {/* <Route path="/weeksatu" element={<DaftarSoal/>} /> */}
       <Route path="/weeksatunew" element={<DaftarSoalNew/>} />
       <Route path="/weekdua" element={<DaftarSoalWeekDua/>} />
       <Route path="/guide" element={<Guide/>} />
