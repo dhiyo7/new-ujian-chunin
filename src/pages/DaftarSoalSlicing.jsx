@@ -31,6 +31,16 @@ const DaftarSoal = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
+          <br/>
+          <h1 className="py-5">Slicing Halaman Berikut ini menggunakan salah satu farmework CSS:</h1>
+          <iframe
+            width="860"
+            height="484"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FvJM2OzQlOdbBOqqL3OZfyF%2FAuthed%25C2%25A0%25E2%2580%2593%25C2%25A0Authentication-UI-Design-%28Community%29%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3D3zy9tapRuMqMkqak-1"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
       <footer className="w-full bg-gray-100 flex justify-center h-20 text-cyan-900 absolute bottom-0">
