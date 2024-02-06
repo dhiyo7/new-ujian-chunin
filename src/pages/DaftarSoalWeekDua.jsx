@@ -1,25 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
-// data Dummy
-// import response_data from '../../src/data/data.json'
-
-// const BASE_URL = process.env.REACT_APP_URL;
+import MarkdownPreview from '@uiw/react-markdown-preview';
+import fileSoal from '../assets/markdown/soalke2.md'
 
 export default function DaftarSoal() {
-  const [soalMain, setSoalMain] = useState([]);
-
-  // const getDataSoal = async () => {
-  //   await axios.get(BASE_URL).then((res) => {
-  //     const soal = res.data.data2;
-  //     console.log("Soal ke 2 ",soal);
-  //     setSoalMain(soal);
-  //   });
-  // };
-
-  // useEffect(() => {
-  //   getDataSoal();
-  // }, []);
 
   return (
     <div className="relative min-h-screen pb-20 font-mono text-cyan-900">
@@ -31,10 +16,10 @@ export default function DaftarSoal() {
           <nav>
             <ul className="flex justify-start">
               <li className="p-4 underline">
-                <Link to="/guide">Guide</Link>
+                <Link to="/project">Project</Link>
               </li>
               <li className="p-4 underline">
-                <a href="#">Submit</a>
+                <Link to="/guide">Guide</Link>
               </li>
             </ul>
           </nav>
@@ -43,25 +28,8 @@ export default function DaftarSoal() {
       <div className="flex justify-center py-5">
         <div className="container max-w-3xl p-4">
           <h1 className="py-5">List Task:</h1>
-          {/* {soalMain.map(({ id, name, descriptoin, soal }) => {
-            return (
-              <div className="post py-5" key={id}>
-                <h2 className="underline hover:text-cyan-900 text-xl text-bold">
-                  {name}
-                </h2>
-                <p>{descriptoin}</p>
-                <div className="border-dotted mt-5">
-                  {soal.map(({ id_soal, soalnya }) => {
-                    return (
-                      <ul className="px-3 list-disc mt-2" key={id_soal}>
-                        <li>{soalnya}</li>
-                      </ul>
-                    );
-                  })}
-                </div>
-              </div>
-            );
-          })} */}
+          <MarkdownPreview source={fileSoal} className="bg-white text-cyan-900" />
+
         </div>
       </div>
       <footer className="w-full bg-gray-100 flex justify-center h-20 text-cyan-900 absolute bottom-0">

@@ -1,14 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-// import axios from "axios";
 
-// data Dummy
-import response_data from '../db.json'
-
-// const BASE_URL = process.env.REACT_APP_URL;
 
 const DaftarSoal = () => {
-  const [soalMain, setSoalMain] = useState(response_data.data);
 
   return (
     <div className="relative min-h-screen pb-20 font-mono text-cyan-900">
@@ -22,35 +16,21 @@ const DaftarSoal = () => {
               <li className="p-4 underline">
                 <Link to="/guide">Guide</Link>
               </li>
-              <li className="p-4 underline">
-                <a href="#">Submit</a>
-              </li>
             </ul>
           </nav>
         </div>
       </div>
       <div className="flex justify-center py-5">
         <div className="container max-w-3xl p-4">
-          <h1 className="py-5">List Task:</h1>
-          {soalMain.map(({ id, name, descriptoin, soal }) => {
-            return (
-              <div className="post py-5" key={id}>
-                <h2 className="underline hover:text-cyan-900 text-xl text-bold">
-                  {name}
-                </h2>
-                <p>{descriptoin}</p>
-                <div className="border-dotted mt-5">
-                  {soal.map(({ id_soal, soalnya }) => {
-                    return (
-                      <ul className="px-3 list-disc mt-2" key={id_soal}>
-                        <li>{soalnya}</li>
-                      </ul>
-                    );
-                  })}
-                </div>
-              </div>
-            );
-          })}
+          <h1 className="py-5">Slicing Halaman Berikut ini menggunakan HTML dan CSS:</h1>
+          <iframe
+            width="860"
+            height="484"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F8q08EJImCqy8e3njkywRgz%2FBali-Travel%3Ftype%3Ddesign%26node-id%3D0-1%26mode%3Ddesign%26t%3DQ5Ll0Wd9lu4d7wh0-0"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
       <footer className="w-full bg-gray-100 flex justify-center h-20 text-cyan-900 absolute bottom-0">
