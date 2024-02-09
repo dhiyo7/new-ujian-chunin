@@ -39,6 +39,15 @@ const DaftarSoal = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
+           <br/>
+          <h1 className="py-5">Slicing Halaman Berikut ini menggunakan React dan Tailwind CSS:</h1>
+          <iframe
+            className="w-full aspect-video"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FiKEsFxs1ILV0I54EtLWH5O%2FEpictetus-%25E2%2580%2593-Blog-UI-Design-%28Community%29%3Ftype%3Ddesign%26node-id%3D639%253A2%26mode%3Ddesign%26t%3DnkMWbRUl8lND8wCi-1"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
       <footer className="w-full bg-gray-100 flex justify-center h-20 text-cyan-900 absolute bottom-0">
